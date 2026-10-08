@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Entornos virtuales y variables de entorno
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Archivos temporales de Office (ej. ~$documento.docx)
+~$*

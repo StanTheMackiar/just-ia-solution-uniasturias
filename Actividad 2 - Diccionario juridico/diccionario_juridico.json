@@ -1,0 +1,284 @@
+{
+  "version": "1.0",
+  "fecha": "2026-10-08",
+  "autor": "Stanly Leon Calle Samper",
+  "descripcion": "Diccionario tecnico de terminos juridicos para JustIA (Consultorio Virtual). Los terminos se escriben en forma natural; el clasificador los pasa por el mismo preprocesamiento del corpus (actividad 1) al cargarlos.",
+  "pesos": {
+    "palabra_clave": 1.0,
+    "expresion": 2.0
+  },
+  "umbral_minimo": 2.0,
+  "categorias": {
+    "familia": {
+      "descripcion": "Relaciones familiares, alimentos, custodia, filiacion, divorcio, union marital y restablecimiento de derechos de ninos.",
+      "palabras_clave": [
+        "alimentos",
+        "custodia",
+        "visitas",
+        "divorcio",
+        "paternidad",
+        "progenitor",
+        "cónyuges",
+        "conyugal",
+        "hijos",
+        "menor",
+        "adolescente",
+        "ICBF",
+        "matrimonio",
+        "filiación",
+        "intrafamiliar"
+      ],
+      "expresiones": [
+        "cuota alimentaria",
+        "cuidado personal",
+        "unión marital",
+        "sociedad conyugal",
+        "restablecimiento de derechos",
+        "defensor de familia",
+        "comisaría de familia",
+        "interés superior"
+      ]
+    },
+    "laboral": {
+      "descripcion": "Relaciones de trabajo, despidos, prestaciones sociales, seguridad social y acoso laboral.",
+      "palabras_clave": [
+        "trabajador",
+        "trabajadora",
+        "empleador",
+        "despido",
+        "despedido",
+        "salario",
+        "cesantías",
+        "prima",
+        "vacaciones",
+        "liquidación",
+        "jornada",
+        "nómina",
+        "ARL",
+        "pensión",
+        "jornalero"
+      ],
+      "expresiones": [
+        "justa causa",
+        "contrato realidad",
+        "acoso laboral",
+        "estabilidad laboral",
+        "accidente de trabajo",
+        "prestaciones sociales",
+        "horas extra",
+        "seguridad social",
+        "inspector de trabajo"
+      ]
+    },
+    "penal": {
+      "descripcion": "Delitos, actuaciones de la Fiscalia, capturas, imputacion, penas y defensa tecnica.",
+      "palabras_clave": [
+        "fiscalía",
+        "delito",
+        "denuncia",
+        "hurto",
+        "estafa",
+        "captura",
+        "flagrancia",
+        "imputación",
+        "imputado",
+        "acusado",
+        "condena",
+        "prisión",
+        "extorsión",
+        "preacuerdo",
+        "lesiones"
+      ],
+      "expresiones": [
+        "medida de aseguramiento",
+        "detención preventiva",
+        "control de garantías",
+        "medicina legal",
+        "reparación integral",
+        "inasistencia alimentaria",
+        "defensa técnica",
+        "aceptar cargos"
+      ]
+    },
+    "civil": {
+      "descripcion": "Contratos, bienes, obligaciones, sucesiones y responsabilidad civil entre particulares.",
+      "palabras_clave": [
+        "arrendamiento",
+        "arrendatario",
+        "arrendador",
+        "cánones",
+        "pagaré",
+        "embargo",
+        "sucesión",
+        "herederos",
+        "testamento",
+        "compraventa",
+        "escritura",
+        "inmueble",
+        "servidumbre",
+        "posesión",
+        "deudor"
+      ],
+      "expresiones": [
+        "proceso ejecutivo",
+        "mandamiento de pago",
+        "prescripción adquisitiva",
+        "responsabilidad civil",
+        "daño emergente",
+        "lucro cesante",
+        "cláusula penal",
+        "promesa de compraventa",
+        "registro de instrumentos públicos"
+      ]
+    },
+    "constitucional": {
+      "descripcion": "Acciones constitucionales y proteccion de derechos fundamentales.",
+      "palabras_clave": [
+        "tutela",
+        "fundamentales",
+        "accionante",
+        "EPS",
+        "igualdad",
+        "discriminación",
+        "petición",
+        "indígena",
+        "resguardo",
+        "Constitución",
+        "Corte",
+        "consulta"
+      ],
+      "expresiones": [
+        "acción de tutela",
+        "derecho de petición",
+        "debido proceso",
+        "mínimo vital",
+        "consulta previa",
+        "habeas data",
+        "perjuicio irremediable",
+        "jurisdicción especial indígena",
+        "derechos fundamentales"
+      ]
+    },
+    "administrativo": {
+      "descripcion": "Actuaciones frente a entidades publicas, actos administrativos, subsidios, tramites y migracion.",
+      "palabras_clave": [
+        "resolución",
+        "subsidio",
+        "SISBÉN",
+        "entidad",
+        "reposición",
+        "apelación",
+        "comparendo",
+        "insubsistente",
+        "migración",
+        "migrante",
+        "PPT",
+        "pasaporte",
+        "secretaría"
+      ],
+      "expresiones": [
+        "acto administrativo",
+        "silencio administrativo",
+        "nulidad y restablecimiento",
+        "reparación directa",
+        "falla en el servicio",
+        "recurso de reposición",
+        "permiso por protección temporal",
+        "servidor público"
+      ]
+    },
+    "victimas_conflicto": {
+      "descripcion": "Victimas del conflicto armado: registro, reparacion, restitucion de tierras y enfoque diferencial.",
+      "palabras_clave": [
+        "víctimas",
+        "desplazamiento",
+        "despojo",
+        "despojada",
+        "RUV",
+        "desaparecida",
+        "masacre",
+        "humanitaria",
+        "DIH",
+        "reparación",
+        "indemnización",
+        "étnico"
+      ],
+      "expresiones": [
+        "conflicto armado",
+        "desplazamiento forzado",
+        "restitución de tierras",
+        "registro único de víctimas",
+        "unidad para las víctimas",
+        "grupos armados",
+        "enfoque diferencial",
+        "no repetición",
+        "indemnización administrativa"
+      ]
+    },
+    "genero": {
+      "descripcion": "Violencias contra la mujer por razones de genero (Ley 1257 de 2008) y rutas de atencion.",
+      "palabras_clave": [
+        "mujer",
+        "agresor",
+        "feminicidio",
+        "pareja",
+        "expareja",
+        "compañero",
+        "género",
+        "psicológica",
+        "patrimonial",
+        "económica",
+        "intimidación",
+        "insultos",
+        "esposo",
+        "marido",
+        "maltrato"
+      ],
+      "expresiones": [
+        "violencia de género",
+        "violencia económica",
+        "violencia patrimonial",
+        "daño patrimonial",
+        "violencia psicológica",
+        "medida de protección",
+        "medidas de protección",
+        "línea 155",
+        "ruta de atención"
+      ]
+    }
+  },
+  "alertas_terminologicas": {
+    "nota": "Terminos sensibles que el piloto confundia. No cambian la categoria, pero el sistema debe distinguirlos y mostrar la fuente para que el practicante valide.",
+    "violencia_economica": {
+      "fuente": "Ley 1257 de 2008, art. 2",
+      "definicion": "Accion u omision orientada al abuso economico, el control abusivo de las finanzas, recompensas o castigos monetarios a las mujeres.",
+      "indicadores": [
+        "violencia económica",
+        "controla su salario",
+        "control abusivo de las finanzas",
+        "le niega dinero",
+        "castigos monetarios",
+        "quitándole la plata",
+        "recompensas o castigos",
+        "no me da plata",
+        "me quita el sueldo"
+      ]
+    },
+    "violencia_patrimonial": {
+      "fuente": "Ley 1257 de 2008, art. 3 lit. d (dano patrimonial)",
+      "definicion": "Perdida, transformacion, sustraccion, destruccion, retencion o distraccion de objetos, instrumentos de trabajo, documentos personales, bienes o valores de la mujer.",
+      "indicadores": [
+        "violencia patrimonial",
+        "daño patrimonial",
+        "retiene la cédula",
+        "documentos personales",
+        "instrumentos de trabajo",
+        "destruyó la máquina",
+        "destrucción de bienes",
+        "sustracción",
+        "quitó la cédula",
+        "rompió las herramientas"
+      ]
+    }
+  }
+}
