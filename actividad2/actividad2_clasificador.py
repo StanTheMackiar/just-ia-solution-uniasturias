@@ -31,7 +31,7 @@ from functools import lru_cache
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
-CARPETA_ACT1 = BASE.parent / "Actividad 1 - Preprocesamiento"
+CARPETA_ACT1 = BASE.parent / "actividad1"
 sys.path.insert(0, str(CARPETA_ACT1))  # reutiliza el preprocesamiento de la actividad 1
 
 from actividad1_preprocesamiento import procesar  # noqa: E402

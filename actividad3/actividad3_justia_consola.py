@@ -26,7 +26,7 @@ from datetime import datetime
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
-sys.path.insert(0, str(BASE.parent / "Actividad 2 - Diccionario juridico"))
+sys.path.insert(0, str(BASE.parent / "actividad2"))
 
 from actividad2_clasificador import cargar_diccionario, predecir_categoria  # noqa: E402
 RUTA_REGISTRO = BASE / "registros" / "justia_registro.jsonl"
